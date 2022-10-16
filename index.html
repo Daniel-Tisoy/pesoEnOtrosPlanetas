@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tu peso en otros planetas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="context">
+    <main class="content">
+      <h1>¿Quieres saber cuanto pesas en otros planetas?</h1>
+      <p>Sabías que en la tierra pesas distinto que en marte o en jupiter</p>
+      <div class="grid-container">
+        <section class="grid-item">
+          <form>
+            <label for="peso" class="etiqueta">Peso (kg)</label>
+            <input type="number" id="peso" name="peso" class="entrada" placeholder="Ingresa tu peso en la tierra">
+            <label for="planeta" class="etiqueta">Escoge el planeta: </label>
+            <select name="planeta" id="planeta" class="entrada">
+              <option value="jupiter">Jupiter</option>
+              <option value="marte">Marte</option>
+            </select>
+            <input type="button" value="calcular" class="btn entrada">
+          </form>
+        </section>
+        <section class="grid-item">
+          <figure>
+          <img src="images/astronauta.png" alt="astronauta png sin fondo">
+          </figure>
+          <p>Tu peso en la tierra es: 100kg: genial :)</p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- animation tags -->
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
