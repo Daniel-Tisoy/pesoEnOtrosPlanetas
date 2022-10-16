@@ -39,6 +39,9 @@ body{
     align-items: center;
     height: 60vh;
 }
+.show-result {
+    flex-direction: column;
+}
 .grid-container {
     margin-top: 40px;
     display: grid;
