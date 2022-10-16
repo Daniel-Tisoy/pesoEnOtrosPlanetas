@@ -18,17 +18,17 @@
             <input type="number" id="peso" name="peso" class="entrada" placeholder="Ingresa tu peso en la tierra">
             <label for="planeta" class="etiqueta">Escoge el planeta: </label>
             <select name="planeta" id="planeta" class="entrada">
-              <option value="jupiter">Jupiter</option>
-              <option value="marte">Marte</option>
+              <option value=24.79>Jupiter</option>
+              <option value=3.721>Marte</option>
             </select>
-            <input type="button" value="calcular" class="btn entrada">
+            <input type="button" value="calcular" class="btn entrada" onClick="calcularPesoUsuario()">
           </form>
         </section>
         <section class="grid-item">
           <figure>
           <img src="images/astronauta.png" alt="astronauta png sin fondo">
           </figure>
-          <p>Tu peso en la tierra es: 100kg: genial :)</p>
+          <p id="muestraResultado">Tu peso en la tierra es: 100kg: genial :)</p>
         </section>
       </div>
     </main>
@@ -50,6 +50,7 @@
     </ul>
   </div>
 
+  <script src="js/index.js"></script>
 </body>
 
 </html>
