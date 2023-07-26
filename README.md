@@ -1,2 +1,3 @@
 # peso-en-otros-planetas
-![image](https://user-images.githubusercontent.com/58006592/196323530-1bdca0a5-0a09-4177-b137-637c4a3f6664.png)
+Calcular tu peso en otros planetas
+![image](https://github.com/Daniel-Tisoy/pesoEnOtrosPlanetas/assets/58006592/38a74528-f40d-490d-8484-365fe958b458)
