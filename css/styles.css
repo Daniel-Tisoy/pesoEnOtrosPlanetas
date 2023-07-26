@@ -127,4 +127,7 @@ form {
   .form-section-item {
     width: 60%;
   }
+  .content {
+    height: fit-content;
+  }
 }
