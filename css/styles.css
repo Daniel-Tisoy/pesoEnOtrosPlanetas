@@ -131,3 +131,12 @@ form {
     height: fit-content;
   }
 }
+
+@media (max-width: 400px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+  .content p {
+    font-size: 2rem;
+  }
+}
