@@ -136,7 +136,8 @@ form {
   .content h1 {
     font-size: 3rem;
   }
-  .content p {
+  .content p,
+  .form-display {
     font-size: 2rem;
   }
 }
